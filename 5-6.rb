@@ -18,9 +18,6 @@ puts "Hello! Please reveal me your favorite number and I'll tell you something a
 the_number = gets.to_i
 
 the_better_number = the_number + 1
-the_better_number = the_better_number.to_s
-the_number = the_number.to_s 
 
-
-puts "Your favorite number is " + the_number +  ". OK, but dont't you think that " + the_better_number + " is better?"
+puts "Your favorite number is " + the_number.to_s +  ". OK, but dont't you think that " + the_better_number.to_s + " is better?"
 
