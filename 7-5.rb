@@ -1,4 +1,4 @@
-bottles_number = 99
+1bottles_number = 99
 
 while bottles_number > 0
   if bottles_number == 1
@@ -15,8 +15,6 @@ end
 puts "No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.\n\n\n\n"
 
 # ===========
-
-question = ""
 
 while true
   puts "What do you want to tell to your grandma?"
